@@ -11,9 +11,92 @@
     */
 
     //ENTRADA
+   const perg1 = (prompt("Telefonou para a vítima? Responda com S para sim e N para não.").trim().replace(",", "."));
+   const perg2 = (prompt("Esteve no local do crime?Responda com S para sim e N para não.").trim().replace(",", "."));
+   const perg3 = (prompt("Mora perto da vítima?Responda com S para sim e N para não.").trim().replace(",", "."));
+   const perg4 = (prompt("Devia para a vítima?Responda com S para sim e N para não.").trim().replace(",", "."));
+   const perg5 = (prompt("Já trabalhou com a vítima?Responda com S para sim e N para não.").trim().replace(",", "."));
+   //PROCESSAMENTO
 
-    //PROCESSAMENTO
-
+   if (perg1 == "s" && perg2 == "s" && perg3 == "s" && perg4 == "s" && perg5 == "s") {
+      alert(`culpado`)
+   }
+   else if (perg1 == "s" && perg2 == "s" && perg3 == "s" && perg4 == "s" && perg5 == "n") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "s" && perg3 == "n" && perg4 == "s" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "n" && perg3 == "s" && perg4 == "s" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "n" && perg2 == "s" && perg3 == "s" && perg4 == "s" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "n" && perg2 == "n" && perg3 == "s" && perg4 == "s" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "n" && perg2 == "s" && perg3 == "n" && perg4 == "s" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "n" && perg2 == "s" && perg3 == "s" && perg4 == "n" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "n" && perg2 == "s" && perg3 == "s" && perg4 == "s" && perg5 == "n") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "n" && perg3 == "n" && perg4 == "s" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "n" && perg3 == "s" && perg4 == "n" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "n" && perg3 == "s" && perg4 == "s" && perg5 == "n") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "s" && perg3 == "n" && perg4 == "n" && perg5 == "s") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "s" && perg3 == "n" && perg4 == "s" && perg5 == "n") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "s" && perg2 == "s" && perg3 == "s" && perg4 == "n" && perg5 == "n") {
+      alert(`cúmplice`)
+   }
+   else if (perg1 == "n" && perg2 == "n" && perg3 == "n" && perg4 == "s" && perg5 == "s") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "n" && perg2 == "n" && perg3 == "s" && perg4 == "n" && perg5 == "s") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "n" && perg2 == "s" && perg3 == "n" && perg4 == "n" && perg5 == "s") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "s" && perg2 == "n" && perg3 == "n" && perg4 == "n" && perg5 == "s") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "n" && perg2 == "n" && perg3 == "s" && perg4 == "s" && perg5 == "n") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "n" && perg2 == "s" && perg3 == "n" && perg4 == "s" && perg5 == "n") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "s" && perg2 == "n" && perg3 == "n" && perg4 == "s" && perg5 == "n") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "n" && perg2 == "s" && perg3 == "s" && perg4 == "n" && perg5 == "n") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "s" && perg2 == "n" && perg3 == "s" && perg4 == "n" && perg5 == "n") {
+      alert(`suspeito`)
+   }
+   else if (perg1 == "s" && perg2 == "s" && perg3 == "n" && perg4 == "n" && perg5 == "n") {
+      alert(`suspeito`)
+   }
+   else {
+      alert(`inocente`)
+   }
     //SAÍDA
+
 
 </script>
